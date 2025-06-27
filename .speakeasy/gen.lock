@@ -1,0 +1,508 @@
+lockVersion: 2.0.0
+id: 5407e443-f5a4-468e-9c46-bd351302c22f
+management:
+  docChecksum: 81fee56448e7f9fe5fbe3873a63cfa1f
+  docVersion: 1.4.13
+  speakeasyVersion: 1.570.2
+  generationVersion: 2.638.5
+  releaseVersion: 0.0.1
+  configChecksum: 5376819eb0382dec994c8b2a5036e684
+features:
+  typescript:
+    additionalDependencies: 0.1.0
+    constsAndDefaults: 0.1.12
+    core: 3.21.11
+    defaultEnabledRetries: 0.1.0
+    devContainers: 2.90.0
+    enumUnions: 0.1.0
+    envVarSecurityUsage: 0.1.2
+    globalSecurityCallbacks: 0.1.0
+    globalServerURLs: 2.82.5
+    mcpServer: 0.9.2
+    methodArguments: 0.1.2
+    nullables: 0.1.1
+    responseFormat: 0.2.3
+    retries: 2.83.0
+    sdkHooks: 0.3.0
+generatedFiles:
+  - .devcontainer/README.md
+  - .devcontainer/devcontainer.json
+  - .devcontainer/setup.sh
+  - .gitattributes
+  - .npmignore
+  - FUNCTIONS.md
+  - RUNTIMES.md
+  - USAGE.md
+  - docs/lib/utils/retryconfig.md
+  - docs/models/accountbalancerequest.md
+  - docs/models/accountbalanceresponse.md
+  - docs/models/accountbalanceresponsemetadata.md
+  - docs/models/accountcoinsrequest.md
+  - docs/models/accountcoinsresponse.md
+  - docs/models/accountcoinsresponsemetadata.md
+  - docs/models/accountidentifier.md
+  - docs/models/accountidentifiermetadata.md
+  - docs/models/allow.md
+  - docs/models/amount.md
+  - docs/models/amountmetadata.md
+  - docs/models/balanceexemption.md
+  - docs/models/block.md
+  - docs/models/blockevent.md
+  - docs/models/blockeventtype.md
+  - docs/models/blockidentifier.md
+  - docs/models/blockmetadata.md
+  - docs/models/blockrequest.md
+  - docs/models/blockresponse.md
+  - docs/models/blocktransaction.md
+  - docs/models/blocktransactionrequest.md
+  - docs/models/blocktransactionresponse.md
+  - docs/models/callrequest.md
+  - docs/models/callresponse.md
+  - docs/models/case.md
+  - docs/models/coin.md
+  - docs/models/coinaction.md
+  - docs/models/coinchange.md
+  - docs/models/coinidentifier.md
+  - docs/models/constructioncombinerequest.md
+  - docs/models/constructioncombineresponse.md
+  - docs/models/constructionderiverequest.md
+  - docs/models/constructionderiverequestmetadata.md
+  - docs/models/constructionderiveresponse.md
+  - docs/models/constructionderiveresponsemetadata.md
+  - docs/models/constructionhashrequest.md
+  - docs/models/constructionmetadatarequest.md
+  - docs/models/constructionmetadatarequestoptions.md
+  - docs/models/constructionmetadataresponse.md
+  - docs/models/constructionmetadataresponsemetadata.md
+  - docs/models/constructionparserequest.md
+  - docs/models/constructionparseresponse.md
+  - docs/models/constructionparseresponsemetadata.md
+  - docs/models/constructionpayloadsrequest.md
+  - docs/models/constructionpayloadsrequestmetadata.md
+  - docs/models/constructionpayloadsresponse.md
+  - docs/models/constructionpreprocessrequest.md
+  - docs/models/constructionpreprocessrequestmetadata.md
+  - docs/models/constructionpreprocessresponse.md
+  - docs/models/constructionpreprocessresponseoptions.md
+  - docs/models/constructionsubmitrequest.md
+  - docs/models/currency.md
+  - docs/models/currencymetadata.md
+  - docs/models/curvetype.md
+  - docs/models/details.md
+  - docs/models/direction.md
+  - docs/models/errors/errort.md
+  - docs/models/errort.md
+  - docs/models/eventsblocksrequest.md
+  - docs/models/eventsblocksresponse.md
+  - docs/models/exemptiontype.md
+  - docs/models/mempoolresponse.md
+  - docs/models/mempooltransactionrequest.md
+  - docs/models/mempooltransactionresponse.md
+  - docs/models/mempooltransactionresponsemetadata.md
+  - docs/models/metadatarequest.md
+  - docs/models/metadatarequestmetadata.md
+  - docs/models/networkidentifier.md
+  - docs/models/networklistresponse.md
+  - docs/models/networkoptionsresponse.md
+  - docs/models/networkrequest.md
+  - docs/models/networkrequestmetadata.md
+  - docs/models/networkstatusresponse.md
+  - docs/models/operation.md
+  - docs/models/operationidentifier.md
+  - docs/models/operationmetadata.md
+  - docs/models/operationstatus.md
+  - docs/models/operator.md
+  - docs/models/parameterst.md
+  - docs/models/partialblockidentifier.md
+  - docs/models/peer.md
+  - docs/models/peermetadata.md
+  - docs/models/publickey.md
+  - docs/models/relatedtransaction.md
+  - docs/models/result.md
+  - docs/models/searchtransactionsrequest.md
+  - docs/models/searchtransactionsresponse.md
+  - docs/models/signature.md
+  - docs/models/signaturetype.md
+  - docs/models/signingpayload.md
+  - docs/models/subaccountidentifier.md
+  - docs/models/subaccountidentifiermetadata.md
+  - docs/models/subnetworkidentifier.md
+  - docs/models/subnetworkidentifiermetadata.md
+  - docs/models/syncstatus.md
+  - docs/models/transaction.md
+  - docs/models/transactionidentifier.md
+  - docs/models/transactionidentifierresponse.md
+  - docs/models/transactionidentifierresponsemetadata.md
+  - docs/models/transactionmetadata.md
+  - docs/models/version.md
+  - docs/models/versionmetadata.md
+  - docs/sdks/account/README.md
+  - docs/sdks/block/README.md
+  - docs/sdks/call/README.md
+  - docs/sdks/construction/README.md
+  - docs/sdks/events/README.md
+  - docs/sdks/icpmcp/README.md
+  - docs/sdks/mempool/README.md
+  - docs/sdks/network/README.md
+  - docs/sdks/search/README.md
+  - eslint.config.mjs
+  - jsr.json
+  - package.json
+  - src/core.ts
+  - src/funcs/accountAccountBalance.ts
+  - src/funcs/accountAccountCoins.ts
+  - src/funcs/blockBlock.ts
+  - src/funcs/blockBlockTransaction.ts
+  - src/funcs/callCall.ts
+  - src/funcs/constructionConstructionCombine.ts
+  - src/funcs/constructionConstructionDerive.ts
+  - src/funcs/constructionConstructionHash.ts
+  - src/funcs/constructionConstructionMetadata.ts
+  - src/funcs/constructionConstructionParse.ts
+  - src/funcs/constructionConstructionPayloads.ts
+  - src/funcs/constructionConstructionPreprocess.ts
+  - src/funcs/constructionConstructionSubmit.ts
+  - src/funcs/eventsEventsBlocks.ts
+  - src/funcs/mempoolMempool.ts
+  - src/funcs/mempoolMempoolTransaction.ts
+  - src/funcs/networkNetworkList.ts
+  - src/funcs/networkNetworkOptions.ts
+  - src/funcs/networkNetworkStatus.ts
+  - src/funcs/searchSearchTransactions.ts
+  - src/hooks/hooks.ts
+  - src/hooks/index.ts
+  - src/hooks/types.ts
+  - src/index.ts
+  - src/lib/base64.ts
+  - src/lib/config.ts
+  - src/lib/dlv.ts
+  - src/lib/encodings.ts
+  - src/lib/env.ts
+  - src/lib/files.ts
+  - src/lib/http.ts
+  - src/lib/is-plain-object.ts
+  - src/lib/logger.ts
+  - src/lib/matchers.ts
+  - src/lib/primitives.ts
+  - src/lib/retries.ts
+  - src/lib/schemas.ts
+  - src/lib/sdks.ts
+  - src/lib/security.ts
+  - src/lib/url.ts
+  - src/mcp-server/build.mts
+  - src/mcp-server/cli.ts
+  - src/mcp-server/cli/start/command.ts
+  - src/mcp-server/cli/start/impl.ts
+  - src/mcp-server/console-logger.ts
+  - src/mcp-server/extensions.ts
+  - src/mcp-server/mcp-server.ts
+  - src/mcp-server/prompts.ts
+  - src/mcp-server/resources.ts
+  - src/mcp-server/scopes.ts
+  - src/mcp-server/server.ts
+  - src/mcp-server/shared.ts
+  - src/mcp-server/tools.ts
+  - src/mcp-server/tools/accountAccountBalance.ts
+  - src/mcp-server/tools/accountAccountCoins.ts
+  - src/mcp-server/tools/blockBlock.ts
+  - src/mcp-server/tools/blockBlockTransaction.ts
+  - src/mcp-server/tools/callCall.ts
+  - src/mcp-server/tools/constructionConstructionCombine.ts
+  - src/mcp-server/tools/constructionConstructionDerive.ts
+  - src/mcp-server/tools/constructionConstructionHash.ts
+  - src/mcp-server/tools/constructionConstructionMetadata.ts
+  - src/mcp-server/tools/constructionConstructionParse.ts
+  - src/mcp-server/tools/constructionConstructionPayloads.ts
+  - src/mcp-server/tools/constructionConstructionPreprocess.ts
+  - src/mcp-server/tools/constructionConstructionSubmit.ts
+  - src/mcp-server/tools/eventsEventsBlocks.ts
+  - src/mcp-server/tools/mempoolMempool.ts
+  - src/mcp-server/tools/mempoolMempoolTransaction.ts
+  - src/mcp-server/tools/networkNetworkList.ts
+  - src/mcp-server/tools/networkNetworkOptions.ts
+  - src/mcp-server/tools/networkNetworkStatus.ts
+  - src/mcp-server/tools/searchSearchTransactions.ts
+  - src/models/accountbalancerequest.ts
+  - src/models/accountbalanceresponse.ts
+  - src/models/accountcoinsrequest.ts
+  - src/models/accountcoinsresponse.ts
+  - src/models/accountidentifier.ts
+  - src/models/allow.ts
+  - src/models/amount.ts
+  - src/models/balanceexemption.ts
+  - src/models/block.ts
+  - src/models/blockevent.ts
+  - src/models/blockeventtype.ts
+  - src/models/blockidentifier.ts
+  - src/models/blockrequest.ts
+  - src/models/blockresponse.ts
+  - src/models/blocktransaction.ts
+  - src/models/blocktransactionrequest.ts
+  - src/models/blocktransactionresponse.ts
+  - src/models/callrequest.ts
+  - src/models/callresponse.ts
+  - src/models/case.ts
+  - src/models/coin.ts
+  - src/models/coinaction.ts
+  - src/models/coinchange.ts
+  - src/models/coinidentifier.ts
+  - src/models/constructioncombinerequest.ts
+  - src/models/constructioncombineresponse.ts
+  - src/models/constructionderiverequest.ts
+  - src/models/constructionderiveresponse.ts
+  - src/models/constructionhashrequest.ts
+  - src/models/constructionmetadatarequest.ts
+  - src/models/constructionmetadataresponse.ts
+  - src/models/constructionparserequest.ts
+  - src/models/constructionparseresponse.ts
+  - src/models/constructionpayloadsrequest.ts
+  - src/models/constructionpayloadsresponse.ts
+  - src/models/constructionpreprocessrequest.ts
+  - src/models/constructionpreprocessresponse.ts
+  - src/models/constructionsubmitrequest.ts
+  - src/models/currency.ts
+  - src/models/curvetype.ts
+  - src/models/direction.ts
+  - src/models/error.ts
+  - src/models/errors/error.ts
+  - src/models/errors/httpclienterrors.ts
+  - src/models/errors/icpmcpdefaulterror.ts
+  - src/models/errors/icpmcperror.ts
+  - src/models/errors/index.ts
+  - src/models/errors/responsevalidationerror.ts
+  - src/models/errors/sdkvalidationerror.ts
+  - src/models/eventsblocksrequest.ts
+  - src/models/eventsblocksresponse.ts
+  - src/models/exemptiontype.ts
+  - src/models/index.ts
+  - src/models/mempoolresponse.ts
+  - src/models/mempooltransactionrequest.ts
+  - src/models/mempooltransactionresponse.ts
+  - src/models/metadatarequest.ts
+  - src/models/networkidentifier.ts
+  - src/models/networklistresponse.ts
+  - src/models/networkoptionsresponse.ts
+  - src/models/networkrequest.ts
+  - src/models/networkstatusresponse.ts
+  - src/models/operation.ts
+  - src/models/operationidentifier.ts
+  - src/models/operationstatus.ts
+  - src/models/operator.ts
+  - src/models/partialblockidentifier.ts
+  - src/models/peer.ts
+  - src/models/publickey.ts
+  - src/models/relatedtransaction.ts
+  - src/models/searchtransactionsrequest.ts
+  - src/models/searchtransactionsresponse.ts
+  - src/models/signature.ts
+  - src/models/signaturetype.ts
+  - src/models/signingpayload.ts
+  - src/models/subaccountidentifier.ts
+  - src/models/subnetworkidentifier.ts
+  - src/models/syncstatus.ts
+  - src/models/transaction.ts
+  - src/models/transactionidentifier.ts
+  - src/models/transactionidentifierresponse.ts
+  - src/models/version.ts
+  - src/sdk/account.ts
+  - src/sdk/block.ts
+  - src/sdk/call.ts
+  - src/sdk/construction.ts
+  - src/sdk/events.ts
+  - src/sdk/index.ts
+  - src/sdk/mempool.ts
+  - src/sdk/network.ts
+  - src/sdk/sdk.ts
+  - src/sdk/search.ts
+  - src/types/async.ts
+  - src/types/blobs.ts
+  - src/types/constdatetime.ts
+  - src/types/enums.ts
+  - src/types/fp.ts
+  - src/types/index.ts
+  - src/types/operations.ts
+  - src/types/rfcdate.ts
+  - src/types/streams.ts
+  - tsconfig.json
+examples:
+  networkList:
+    speakeasy-default-network-list:
+      requestBody:
+        application/json: {}
+      responses:
+        "200":
+          application/json: {"network_identifiers": [{"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}]}
+        "500":
+          application/json: {"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": true, "details": {}}
+  networkStatus:
+    speakeasy-default-network-status:
+      requestBody:
+        application/json: {"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}}
+      responses:
+        "200":
+          application/json: {"current_block_identifier": {"index": 1123941, "hash": "0x1f2cc6c5027d2f201a5453ad1119574d2aed23a392654742ac3c78783c071f85"}, "current_block_timestamp": 1582833600000, "genesis_block_identifier": {"index": 1123941, "hash": "0x1f2cc6c5027d2f201a5453ad1119574d2aed23a392654742ac3c78783c071f85"}, "oldest_block_identifier": {"index": 1123941, "hash": "0x1f2cc6c5027d2f201a5453ad1119574d2aed23a392654742ac3c78783c071f85"}, "sync_status": {"current_index": 100, "target_index": 150, "stage": "header sync"}, "peers": [{"peer_id": "0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5"}]}
+        "500":
+          application/json: {"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": false, "details": {}}
+  networkOptions:
+    speakeasy-default-network-options:
+      requestBody:
+        application/json: {"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}}
+      responses:
+        "200":
+          application/json: {"version": {"rosetta_version": "1.2.5", "node_version": "1.0.2", "middleware_version": "0.2.7"}, "allow": {"operation_statuses": [{"status": "SUCCESS", "successful": true}], "operation_types": ["TRANSFER"], "errors": [{"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": false, "details": {}}], "historical_balance_lookup": true, "call_methods": ["eth_call"], "balance_exemptions": [{"sub_account_address": "staking", "currency": {"symbol": "BTC", "decimals": 8, "metadata": {}}}], "mempool_coins": false, "block_hash_case": "case_sensitive", "transaction_hash_case": "case_sensitive"}}
+        "500":
+          application/json: {"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": true, "details": {}}
+  block:
+    speakeasy-default-block:
+      requestBody:
+        application/json: {"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}, "block_identifier": {"index": 1123941, "hash": "0x1f2cc6c5027d2f201a5453ad1119574d2aed23a392654742ac3c78783c071f85"}}
+      responses:
+        "200":
+          application/json: {"block": {"block_identifier": {"index": 1123941, "hash": "0x1f2cc6c5027d2f201a5453ad1119574d2aed23a392654742ac3c78783c071f85"}, "parent_block_identifier": {"index": 1123941, "hash": "0x1f2cc6c5027d2f201a5453ad1119574d2aed23a392654742ac3c78783c071f85"}, "timestamp": 1582833600000, "transactions": [{"transaction_identifier": {"hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"}, "operations": [], "related_transactions": [{"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}, "transaction_identifier": {"hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"}, "direction": "forward"}], "metadata": {}}], "metadata": {}}, "other_transactions": [{"hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"}]}
+        "500":
+          application/json: {"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": false, "details": {}}
+  blockTransaction:
+    speakeasy-default-block-transaction:
+      requestBody:
+        application/json: {"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}, "block_identifier": {"index": 1123941, "hash": "0x1f2cc6c5027d2f201a5453ad1119574d2aed23a392654742ac3c78783c071f85"}, "transaction_identifier": {"hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"}}
+      responses:
+        "200":
+          application/json: {"transaction": {"transaction_identifier": {"hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"}, "operations": [], "related_transactions": [{"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}, "transaction_identifier": {"hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"}, "direction": "backward"}], "metadata": {}}}
+        "500":
+          application/json: {"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": false, "details": {}}
+  mempool:
+    speakeasy-default-mempool:
+      requestBody:
+        application/json: {"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}}
+      responses:
+        "200":
+          application/json: {"transaction_identifiers": [{"hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"}]}
+        "500":
+          application/json: {"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": true, "details": {}}
+  mempoolTransaction:
+    speakeasy-default-mempool-transaction:
+      requestBody:
+        application/json: {"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}, "transaction_identifier": {"hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"}}
+      responses:
+        "200":
+          application/json: {"transaction": {"transaction_identifier": {"hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"}, "operations": [{"operation_identifier": {"index": 5, "network_index": 0}, "related_operations": [{"index": 1}, {"index": 2}], "type": "Transfer", "status": "Reverted", "account": {"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61", "sub_account": {"address": "0x6b175474e89094c44da98b954eedeac495271d0f"}}, "amount": {"value": "1238089899992", "currency": {"symbol": "BTC", "decimals": 8, "metadata": {}}}, "coin_change": {"coin_identifier": {"identifier": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f:1"}, "coin_action": "coin_created"}, "metadata": {}}], "related_transactions": [{"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}, "transaction_identifier": {"hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"}, "direction": "backward"}], "metadata": {}}, "metadata": {}}
+        "500":
+          application/json: {"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": false, "details": {}}
+  accountBalance:
+    speakeasy-default-account-balance:
+      requestBody:
+        application/json: {"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}, "account_identifier": {"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61", "sub_account": {"address": "0x6b175474e89094c44da98b954eedeac495271d0f"}}, "block_identifier": {"index": 1123941, "hash": "0x1f2cc6c5027d2f201a5453ad1119574d2aed23a392654742ac3c78783c071f85"}, "currencies": [{"symbol": "BTC", "decimals": 8, "metadata": {}}]}
+      responses:
+        "200":
+          application/json: {"block_identifier": {"index": 1123941, "hash": "0x1f2cc6c5027d2f201a5453ad1119574d2aed23a392654742ac3c78783c071f85"}, "balances": [{"value": "1238089899992", "currency": {"symbol": "BTC", "decimals": 8, "metadata": {}}}], "metadata": {}}
+        "500":
+          application/json: {"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": false, "details": {}}
+  accountCoins:
+    speakeasy-default-account-coins:
+      requestBody:
+        application/json: {"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}, "account_identifier": {"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61", "sub_account": {"address": "0x6b175474e89094c44da98b954eedeac495271d0f"}}, "include_mempool": false, "currencies": [{"symbol": "BTC", "decimals": 8, "metadata": {}}]}
+      responses:
+        "200":
+          application/json: {"block_identifier": {"index": 1123941, "hash": "0x1f2cc6c5027d2f201a5453ad1119574d2aed23a392654742ac3c78783c071f85"}, "coins": [{"coin_identifier": {"identifier": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f:1"}, "amount": {"value": "1238089899992", "currency": {"symbol": "BTC", "decimals": 8, "metadata": {}}}}], "metadata": {}}
+        "500":
+          application/json: {"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": false, "details": {}}
+  constructionDerive:
+    speakeasy-default-construction-derive:
+      requestBody:
+        application/json: {"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}, "public_key": {"hex_bytes": "<value>", "curve_type": "pallas"}}
+      responses:
+        "200":
+          application/json: {"account_identifier": {"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61", "sub_account": {"address": "0x6b175474e89094c44da98b954eedeac495271d0f"}}}
+        "500":
+          application/json: {"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": true, "details": {}}
+  constructionPreprocess:
+    speakeasy-default-construction-preprocess:
+      requestBody:
+        application/json: {"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}, "operations": [{"operation_identifier": {"index": 5, "network_index": 0}, "related_operations": [{"index": 1}, {"index": 2}], "type": "Transfer", "status": "Reverted", "account": {"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61", "sub_account": {"address": "0x6b175474e89094c44da98b954eedeac495271d0f"}}, "amount": {"value": "1238089899992", "currency": {"symbol": "BTC", "decimals": 8, "metadata": {}}}, "coin_change": {"coin_identifier": {"identifier": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f:1"}, "coin_action": "coin_created"}, "metadata": {}}]}
+      responses:
+        "200":
+          application/json: {"required_public_keys": [{"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61", "sub_account": {"address": "0x6b175474e89094c44da98b954eedeac495271d0f"}}]}
+        "500":
+          application/json: {"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": false, "details": {}}
+  constructionMetadata:
+    speakeasy-default-construction-metadata:
+      requestBody:
+        application/json: {"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}}
+      responses:
+        "200":
+          application/json: {"metadata": {}, "suggested_fee": [{"value": "1238089899992", "currency": {"symbol": "BTC", "decimals": 8, "metadata": {}}}]}
+        "500":
+          application/json: {"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": true, "details": {}}
+  constructionPayloads:
+    speakeasy-default-construction-payloads:
+      requestBody:
+        application/json: {"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}, "operations": [{"operation_identifier": {"index": 5, "network_index": 0}, "related_operations": [{"index": 1}, {"index": 2}], "type": "Transfer", "status": "Reverted", "account": {"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61", "sub_account": {"address": "0x6b175474e89094c44da98b954eedeac495271d0f"}}, "amount": {"value": "1238089899992", "currency": {"symbol": "BTC", "decimals": 8, "metadata": {}}}, "coin_change": {"coin_identifier": {"identifier": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f:1"}, "coin_action": "coin_spent"}, "metadata": {}}]}
+      responses:
+        "200":
+          application/json: {"unsigned_transaction": "<value>", "payloads": []}
+        "500":
+          application/json: {"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": false, "details": {}}
+  constructionCombine:
+    speakeasy-default-construction-combine:
+      requestBody:
+        application/json: {"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}, "unsigned_transaction": "<value>", "signatures": []}
+      responses:
+        "200":
+          application/json: {"signed_transaction": "<value>"}
+        "500":
+          application/json: {"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": true, "details": {}}
+  constructionParse:
+    speakeasy-default-construction-parse:
+      requestBody:
+        application/json: {"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}, "signed": false, "transaction": "<value>"}
+      responses:
+        "200":
+          application/json: {"operations": [{"operation_identifier": {"index": 5, "network_index": 0}, "related_operations": [{"index": 1}, {"index": 2}], "type": "Transfer", "status": "Reverted", "account": {"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61", "sub_account": {"address": "0x6b175474e89094c44da98b954eedeac495271d0f"}}, "amount": {"value": "1238089899992", "currency": {"symbol": "BTC", "decimals": 8, "metadata": {}}}, "coin_change": {"coin_identifier": {"identifier": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f:1"}, "coin_action": "coin_spent"}, "metadata": {}}], "account_identifier_signers": [{"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61", "sub_account": {"address": "0x6b175474e89094c44da98b954eedeac495271d0f"}}]}
+        "500":
+          application/json: {"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": false, "details": {}}
+  constructionHash:
+    speakeasy-default-construction-hash:
+      requestBody:
+        application/json: {"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}, "signed_transaction": "<value>"}
+      responses:
+        "200":
+          application/json: {"transaction_identifier": {"hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"}}
+        "500":
+          application/json: {"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": true, "details": {}}
+  constructionSubmit:
+    speakeasy-default-construction-submit:
+      requestBody:
+        application/json: {"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}, "signed_transaction": "<value>"}
+      responses:
+        "200":
+          application/json: {"transaction_identifier": {"hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"}}
+        "500":
+          application/json: {"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": true, "details": {}}
+  call:
+    speakeasy-default-call:
+      requestBody:
+        application/json: {"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}, "method": "eth_call", "parameters": {}}
+      responses:
+        "200":
+          application/json: {"result": {}, "idempotent": true}
+        "500":
+          application/json: {"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": true, "details": {}}
+  eventsBlocks:
+    speakeasy-default-events-blocks:
+      requestBody:
+        application/json: {"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}, "offset": 5, "limit": 5}
+      responses:
+        "200":
+          application/json: {"max_sequence": 5, "events": [{"sequence": 5, "block_identifier": {"index": 1123941, "hash": "0x1f2cc6c5027d2f201a5453ad1119574d2aed23a392654742ac3c78783c071f85"}, "type": "block_removed"}]}
+        "500":
+          application/json: {"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": false, "details": {}}
+  searchTransactions:
+    speakeasy-default-search-transactions:
+      requestBody:
+        application/json: {"network_identifier": {"blockchain": "bitcoin", "network": "mainnet", "sub_network_identifier": {"network": "shard 1", "metadata": {}}}, "max_block": 5, "offset": 5, "limit": 5, "transaction_identifier": {"hash": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f"}, "account_identifier": {"address": "0x3a065000ab4183c6bf581dc1e55a605455fc6d61", "sub_account": {"address": "0x6b175474e89094c44da98b954eedeac495271d0f"}}, "coin_identifier": {"identifier": "0x2f23fd8cca835af21f3ac375bac601f97ead75f2e79143bdf71fe2c4be043e8f:1"}, "currency": {"symbol": "BTC", "decimals": 8, "metadata": {}}, "status": "reverted", "type": "transfer", "address": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"}
+      responses:
+        "200":
+          application/json: {"transactions": [], "total_count": 5, "next_offset": 5}
+        "500":
+          application/json: {"code": 12, "message": "Invalid account format", "description": "This error is returned when the requested AccountIdentifier is improperly formatted.", "retriable": false, "details": {}}
+examplesVersion: 1.0.2

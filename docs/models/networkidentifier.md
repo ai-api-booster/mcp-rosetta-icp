@@ -1,0 +1,26 @@
+# NetworkIdentifier
+
+The network_identifier specifies which network a particular object is associated with.
+
+## Example Usage
+
+```typescript
+import { NetworkIdentifier } from "icpmcp";
+
+let value: NetworkIdentifier = {
+  blockchain: "bitcoin",
+  network: "mainnet",
+  subNetworkIdentifier: {
+    network: "shard 1",
+    metadata: {},
+  },
+};
+```
+
+## Fields
+
+| Field                                                                                                                                                                                   | Type                                                                                                                                                                                    | Required                                                                                                                                                                                | Description                                                                                                                                                                             | Example                                                                                                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `blockchain`                                                                                                                                                                            | *string*                                                                                                                                                                                | :heavy_check_mark:                                                                                                                                                                      | N/A                                                                                                                                                                                     | bitcoin                                                                                                                                                                                 |
+| `network`                                                                                                                                                                               | *string*                                                                                                                                                                                | :heavy_check_mark:                                                                                                                                                                      | If a blockchain has a specific chain-id or network identifier, it should go in this field. It is up to the client to determine which network-specific identifier is mainnet or testnet. | mainnet                                                                                                                                                                                 |
+| `subNetworkIdentifier`                                                                                                                                                                  | [models.SubNetworkIdentifier](../models/subnetworkidentifier.md)                                                                                                                        | :heavy_minus_sign:                                                                                                                                                                      | In blockchains with sharded state, the SubNetworkIdentifier is required to query some object on a specific shard. This identifier is optional for all non-sharded blockchains.          |                                                                                                                                                                                         |

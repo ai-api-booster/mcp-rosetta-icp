@@ -1,0 +1,37 @@
+speakeasyVersion: 1.570.2
+sources:
+    Rosetta:
+        sourceNamespace: rosetta
+        sourceRevisionDigest: sha256:c7266ae2cbc16d8a2862afa985f5c01265275757cba86236a5c5c8e1922ca5cf
+        sourceBlobDigest: sha256:7689d6172bd22807deb7b9993396ab019f4d01b79ec6f59d1dfdccbcd0bb3230
+        tags:
+            - latest
+            - 1.4.13
+targets:
+    icpmcp:
+        source: Rosetta
+        sourceNamespace: rosetta
+        sourceRevisionDigest: sha256:c7266ae2cbc16d8a2862afa985f5c01265275757cba86236a5c5c8e1922ca5cf
+        sourceBlobDigest: sha256:7689d6172bd22807deb7b9993396ab019f4d01b79ec6f59d1dfdccbcd0bb3230
+        codeSamplesNamespace: rosetta-typescript-code-samples
+        codeSamplesRevisionDigest: sha256:d0a57271455fb56abe515450b0b4bed82880710d3d8c7fa7023f992a74c31a26
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        Rosetta:
+            inputs:
+                - location: ./openapi.json
+            output: .speakeasy/out.openapi.yaml
+            registry:
+                location: registry.speakeasyapi.dev/rarible/protocol/rosetta
+    targets:
+        icpmcp:
+            target: typescript
+            source: Rosetta
+            codeSamples:
+                registry:
+                    location: registry.speakeasyapi.dev/rarible/protocol/rosetta-typescript-code-samples
+                labelOverride:
+                    fixedValue: Typescript (SDK)
+                blocking: false

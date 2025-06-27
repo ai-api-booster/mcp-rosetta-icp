@@ -1,0 +1,19 @@
+workflowVersion: 1.0.0
+speakeasyVersion: latest
+sources:
+    Rosetta:
+        inputs:
+            - location: ./openapi.json
+        output: .speakeasy/out.openapi.yaml
+        registry:
+            location: registry.speakeasyapi.dev/rarible/protocol/rosetta
+targets:
+    icpmcp:
+        target: typescript
+        source: Rosetta
+        codeSamples:
+            registry:
+                location: registry.speakeasyapi.dev/rarible/protocol/rosetta-typescript-code-samples
+            labelOverride:
+                fixedValue: Typescript (SDK)
+            blocking: false

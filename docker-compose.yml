@@ -35,7 +35,7 @@ services:
       environment:
         # Provide your API key here. Override in CI with
         # `API_KEY=<new-key> docker compose up -d`.
-        SERVER_URL: "${SERVER_URL:https://rosetta-api.internetcomputer.org/}"
+        SERVER_URL: "${SERVER_URL:-https://rosetta-api.internetcomputer.org/}"
 
       # Traefik routing labels
       labels:

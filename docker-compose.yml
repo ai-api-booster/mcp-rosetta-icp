@@ -25,8 +25,8 @@ services:
         - "/var/run/docker.sock:/var/run/docker.sock:ro"
 
 
-    # Rarible MCP application
-  mcp:
+    # ICP MCP application
+  mcprosetta:
       build: .
       container_name: mcp-rosetta-api
       restart: unless-stopped
@@ -35,12 +35,12 @@ services:
       environment:
         # Provide your API key here. Override in CI with
         # `API_KEY=<new-key> docker compose up -d`.
-        RARIBLEPROTOCOL_API_KEY_AUTH: "${SERVER_URL:https://rosetta-api.internetcomputer.org/}"
+        SERVER_URL: "${SERVER_URL:https://rosetta-api.internetcomputer.org/}"
 
       # Traefik routing labels
       labels:
         - "traefik.enable=true"
-        - "traefik.http.routers.mcp.rule=Host(`mcp.icpaidev.space`)"
-        - "traefik.http.routers.mcp.entrypoints=websecure"
-        - "traefik.http.routers.mcp.tls.certresolver=myresolver"
-        - "traefik.http.services.mcp.loadbalancer.server.port=3030"
+        - "traefik.http.routers.mcprosetta.rule=Host(`mcprosetta.icpaidev.space`)"
+        - "traefik.http.routers.mcprosetta.entrypoints=websecure"
+        - "traefik.http.routers.mcprosetta.tls.certresolver=myresolver"
+        - "traefik.http.services.mcprosetta.loadbalancer.server.port=3030"

@@ -1,0 +1,46 @@
+version: "3.8"
+services:
+  traefik:
+      image: "traefik:v3.4"
+      container_name: "traefik"
+      command:
+        - "--log.level=DEBUG"
+        - "--api.insecure=true"
+        - "--providers.docker=true"
+        - "--providers.docker.exposedbydefault=false"
+        - "--entryPoints.web.address=:80"
+        - "--entryPoints.websecure.address=:443"
+        - "--certificatesresolvers.myresolver.acme.httpchallenge=true"
+        - "--certificatesresolvers.myresolver.acme.httpchallenge.entrypoint=web"
+        #- "--certificatesresolvers.myresolver.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory"
+        - "--certificatesresolvers.myresolver.acme.email=fadeev-home@yandex.ru"
+        - "--certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json"
+        
+      ports:
+        - "80:80"
+        - "443:443"
+        - "8080:8080"
+      volumes:
+        - "./letsencrypt:/letsencrypt"
+        - "/var/run/docker.sock:/var/run/docker.sock:ro"
+
+
+    # Rarible MCP application
+  mcp:
+      build: .
+      container_name: mcp-rosetta-api
+      restart: unless-stopped
+      depends_on:
+        - traefik
+      environment:
+        # Provide your API key here. Override in CI with
+        # `API_KEY=<new-key> docker compose up -d`.
+        RARIBLEPROTOCOL_API_KEY_AUTH: "${SERVER_URL:https://rosetta-api.internetcomputer.org/}"
+
+      # Traefik routing labels
+      labels:
+        - "traefik.enable=true"
+        - "traefik.http.routers.mcp.rule=Host(`mcp.icpaidev.space`)"
+        - "traefik.http.routers.mcp.entrypoints=websecure"
+        - "traefik.http.routers.mcp.tls.certresolver=myresolver"
+        - "traefik.http.services.mcp.loadbalancer.server.port=3030"

@@ -25,7 +25,7 @@ services:
         - "/var/run/docker.sock:/var/run/docker.sock:ro"
 
 
-    # ICP MCP application
+    # ICP MCP application (Rosetta API)
   mcprosetta:
       build: .
       container_name: mcp-rosetta-api

@@ -34,7 +34,10 @@ export type ToolDefinition<Args extends undefined | ZodRawShape = undefined> =
       ) => CallToolResult | Promise<CallToolResult>;
     };
 
-// Optional function to assist with formatting tool results
+// Global default description to add
+const DEFAULT_NETWORK_IDENTIFIER_NOTE =
+  "\n\nBy default, you must provide a network identifier as {\"blockchain\":\"Internet Computer\",\"network\":\"00000000000000020101\"}";
+
 export async function formatResult(
   value: unknown,
   init: { response?: Response | undefined },
@@ -114,12 +117,18 @@ export function createRegisterTool(
       return;
     }
 
+    // Patch tool description to include the global network identifier note
+    let patchedDescription = tool.description || "";
+    if (!patchedDescription.includes(DEFAULT_NETWORK_IDENTIFIER_NOTE)) {
+      patchedDescription += DEFAULT_NETWORK_IDENTIFIER_NOTE;
+    }
+
     if (tool.args) {
-      server.tool(tool.name, tool.description, tool.args, async (args, ctx) => {
+      server.tool(tool.name, patchedDescription, tool.args, async (args, ctx) => {
         return tool.tool(sdk, args, ctx);
       });
     } else {
-      server.tool(tool.name, tool.description, async (ctx) => {
+      server.tool(tool.name, patchedDescription, async (ctx) => {
         return tool.tool(sdk, ctx);
       });
     }

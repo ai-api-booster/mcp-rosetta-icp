@@ -5,7 +5,7 @@ Often times it is useful to return context specific to the request that caused t
 ## Example Usage
 
 ```typescript
-import { Details } from "icpmcp";
+import { Details } from "icpmcp-rosetta-api";
 
 let value: Details = {};
 ```

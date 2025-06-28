@@ -5,7 +5,7 @@ In blockchains with sharded state, the SubNetworkIdentifier is required to query
 ## Example Usage
 
 ```typescript
-import { SubNetworkIdentifier } from "icpmcp";
+import { SubNetworkIdentifier } from "icpmcp-rosetta-api";
 
 let value: SubNetworkIdentifier = {
   network: "shard 1",

@@ -5,7 +5,7 @@ SigningPayload is signed by the client with the keypair associated with an Accou
 ## Example Usage
 
 ```typescript
-import { SigningPayload } from "icpmcp";
+import { SigningPayload } from "icpmcp-rosetta-api";
 
 let value: SigningPayload = {
   accountIdentifier: {

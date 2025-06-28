@@ -5,7 +5,7 @@ AccountCoinsRequest is utilized to make a request on the /account/coins endpoint
 ## Example Usage
 
 ```typescript
-import { AccountCoinsRequest } from "icpmcp";
+import { AccountCoinsRequest } from "icpmcp-rosetta-api";
 
 let value: AccountCoinsRequest = {
   networkIdentifier: {

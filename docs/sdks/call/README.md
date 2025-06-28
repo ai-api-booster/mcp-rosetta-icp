@@ -14,7 +14,7 @@ Call invokes an arbitrary, network-specific procedure call with network-specific
 ### Example Usage
 
 ```typescript
-import { Icpmcp } from "icpmcp";
+import { Icpmcp } from "icpmcp-rosetta-api";
 
 const icpmcp = new Icpmcp({
   serverURL: "https://api.example.com",

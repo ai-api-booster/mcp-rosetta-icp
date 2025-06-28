@@ -5,7 +5,7 @@ ConstructionParseRequest is the input to the `/construction/parse` endpoint. It 
 ## Example Usage
 
 ```typescript
-import { ConstructionParseRequest } from "icpmcp";
+import { ConstructionParseRequest } from "icpmcp-rosetta-api";
 
 let value: ConstructionParseRequest = {
   networkIdentifier: {

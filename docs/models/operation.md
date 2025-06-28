@@ -5,7 +5,7 @@ Operations contain all balance-changing information within a transaction. They a
 ## Example Usage
 
 ```typescript
-import { Operation } from "icpmcp";
+import { Operation } from "icpmcp-rosetta-api";
 
 let value: Operation = {
   operationIdentifier: {

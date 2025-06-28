@@ -15,7 +15,7 @@ Get a block by its Block Identifier. If transactions are returned in the same ca
 ### Example Usage
 
 ```typescript
-import { Icpmcp } from "icpmcp";
+import { Icpmcp } from "icpmcp-rosetta-api";
 
 const icpmcp = new Icpmcp({
   serverURL: "https://api.example.com",
@@ -110,7 +110,7 @@ Get a transaction in a block by its Transaction Identifier. This endpoint should
 ### Example Usage
 
 ```typescript
-import { Icpmcp } from "icpmcp";
+import { Icpmcp } from "icpmcp-rosetta-api";
 
 const icpmcp = new Icpmcp({
   serverURL: "https://api.example.com",

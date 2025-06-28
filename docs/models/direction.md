@@ -5,7 +5,7 @@ Used by RelatedTransaction to indicate the direction of the relation (i.e. cross
 ## Example Usage
 
 ```typescript
-import { Direction } from "icpmcp";
+import { Direction } from "icpmcp-rosetta-api";
 
 let value: Direction = "backward";
 ```

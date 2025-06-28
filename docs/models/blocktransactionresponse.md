@@ -5,7 +5,7 @@ A BlockTransactionResponse contains information about a block transaction.
 ## Example Usage
 
 ```typescript
-import { BlockTransactionResponse } from "icpmcp";
+import { BlockTransactionResponse } from "icpmcp-rosetta-api";
 
 let value: BlockTransactionResponse = {
   transaction: {

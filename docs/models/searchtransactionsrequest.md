@@ -5,7 +5,7 @@ SearchTransactionsRequest is used to search for transactions matching a set of p
 ## Example Usage
 
 ```typescript
-import { SearchTransactionsRequest } from "icpmcp";
+import { SearchTransactionsRequest } from "icpmcp-rosetta-api";
 
 let value: SearchTransactionsRequest = {
   networkIdentifier: {

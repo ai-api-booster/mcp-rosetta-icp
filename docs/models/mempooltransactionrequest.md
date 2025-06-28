@@ -5,7 +5,7 @@ A MempoolTransactionRequest is utilized to retrieve a transaction from the mempo
 ## Example Usage
 
 ```typescript
-import { MempoolTransactionRequest } from "icpmcp";
+import { MempoolTransactionRequest } from "icpmcp-rosetta-api";
 
 let value: MempoolTransactionRequest = {
   networkIdentifier: {

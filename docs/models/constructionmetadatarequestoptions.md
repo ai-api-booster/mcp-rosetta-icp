@@ -5,7 +5,7 @@ Some blockchains require different metadata for different types of transaction c
 ## Example Usage
 
 ```typescript
-import { ConstructionMetadataRequestOptions } from "icpmcp";
+import { ConstructionMetadataRequestOptions } from "icpmcp-rosetta-api";
 
 let value: ConstructionMetadataRequestOptions = {};
 ```

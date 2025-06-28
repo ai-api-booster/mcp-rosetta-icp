@@ -5,7 +5,7 @@ ConstructionDeriveResponse is returned by the `/construction/derive` endpoint.
 ## Example Usage
 
 ```typescript
-import { ConstructionDeriveResponse } from "icpmcp";
+import { ConstructionDeriveResponse } from "icpmcp-rosetta-api";
 
 let value: ConstructionDeriveResponse = {
   accountIdentifier: {

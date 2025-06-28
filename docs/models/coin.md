@@ -5,7 +5,7 @@ Coin contains its unique identifier and the amount it represents.
 ## Example Usage
 
 ```typescript
-import { Coin } from "icpmcp";
+import { Coin } from "icpmcp-rosetta-api";
 
 let value: Coin = {
   coinIdentifier: {

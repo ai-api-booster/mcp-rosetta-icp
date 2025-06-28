@@ -5,7 +5,7 @@ ConstructionCombineRequest is the input to the `/construction/combine` endpoint.
 ## Example Usage
 
 ```typescript
-import { ConstructionCombineRequest } from "icpmcp";
+import { ConstructionCombineRequest } from "icpmcp-rosetta-api";
 
 let value: ConstructionCombineRequest = {
   networkIdentifier: {

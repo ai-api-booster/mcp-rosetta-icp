@@ -5,7 +5,7 @@ CallRequest is the input to the `/call` endpoint.
 ## Example Usage
 
 ```typescript
-import { CallRequest } from "icpmcp";
+import { CallRequest } from "icpmcp-rosetta-api";
 
 let value: CallRequest = {
   networkIdentifier: {

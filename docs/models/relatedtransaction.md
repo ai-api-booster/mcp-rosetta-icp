@@ -5,7 +5,7 @@ The related_transaction allows implementations to link together multiple transac
 ## Example Usage
 
 ```typescript
-import { RelatedTransaction } from "icpmcp";
+import { RelatedTransaction } from "icpmcp-rosetta-api";
 
 let value: RelatedTransaction = {
   networkIdentifier: {

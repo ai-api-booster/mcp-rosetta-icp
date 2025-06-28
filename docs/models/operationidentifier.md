@@ -5,7 +5,7 @@ The operation_identifier uniquely identifies an operation within a transaction.
 ## Example Usage
 
 ```typescript
-import { OperationIdentifier } from "icpmcp";
+import { OperationIdentifier } from "icpmcp-rosetta-api";
 
 let value: OperationIdentifier = {
   index: 5,

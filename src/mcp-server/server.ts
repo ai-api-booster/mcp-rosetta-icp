@@ -42,7 +42,7 @@ export function createMCPServer(deps: {
   serverIdx?: SDKOptions["serverIdx"] | undefined;
 }) {
   const server = new McpServer({
-    name: "Icpmcp",
+    name: "icpmcp-rosetta-api",
     version: "0.0.1",
   });
 

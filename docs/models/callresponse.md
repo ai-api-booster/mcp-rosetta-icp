@@ -5,7 +5,7 @@ CallResponse contains the result of a `/call` invocation.
 ## Example Usage
 
 ```typescript
-import { CallResponse } from "icpmcp";
+import { CallResponse } from "icpmcp-rosetta-api";
 
 let value: CallResponse = {
   result: {},

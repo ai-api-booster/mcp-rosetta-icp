@@ -5,7 +5,7 @@ EventsBlocksResponse contains an ordered collection of BlockEvents and the max r
 ## Example Usage
 
 ```typescript
-import { EventsBlocksResponse } from "icpmcp";
+import { EventsBlocksResponse } from "icpmcp-rosetta-api";
 
 let value: EventsBlocksResponse = {
   maxSequence: 5,

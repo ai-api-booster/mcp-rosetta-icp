@@ -5,7 +5,7 @@ SignatureType is the type of a cryptographic signature. * ecdsa: `r (32-bytes) |
 ## Example Usage
 
 ```typescript
-import { SignatureType } from "icpmcp";
+import { SignatureType } from "icpmcp-rosetta-api";
 
 let value: SignatureType = "ed25519";
 ```

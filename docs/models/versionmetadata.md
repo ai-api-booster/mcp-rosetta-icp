@@ -5,7 +5,7 @@ Any other information that may be useful about versioning of dependent services 
 ## Example Usage
 
 ```typescript
-import { VersionMetadata } from "icpmcp";
+import { VersionMetadata } from "icpmcp-rosetta-api";
 
 let value: VersionMetadata = {};
 ```

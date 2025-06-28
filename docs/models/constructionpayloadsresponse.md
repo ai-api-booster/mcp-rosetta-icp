@@ -5,7 +5,7 @@ ConstructionTransactionResponse is returned by `/construction/payloads`. It cont
 ## Example Usage
 
 ```typescript
-import { ConstructionPayloadsResponse } from "icpmcp";
+import { ConstructionPayloadsResponse } from "icpmcp-rosetta-api";
 
 let value: ConstructionPayloadsResponse = {
   unsignedTransaction: "<value>",

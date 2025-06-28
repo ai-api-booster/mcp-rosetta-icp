@@ -5,7 +5,7 @@ ConstructionPreprocessResponse contains `options` that will be sent unmodified t
 ## Example Usage
 
 ```typescript
-import { ConstructionPreprocessResponse } from "icpmcp";
+import { ConstructionPreprocessResponse } from "icpmcp-rosetta-api";
 
 let value: ConstructionPreprocessResponse = {
   requiredPublicKeys: [

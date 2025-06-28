@@ -5,7 +5,7 @@ EventsBlocksRequest is utilized to fetch a sequence of BlockEvents indicating wh
 ## Example Usage
 
 ```typescript
-import { EventsBlocksRequest } from "icpmcp";
+import { EventsBlocksRequest } from "icpmcp-rosetta-api";
 
 let value: EventsBlocksRequest = {
   networkIdentifier: {

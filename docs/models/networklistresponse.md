@@ -5,7 +5,7 @@ A NetworkListResponse contains all NetworkIdentifiers that the node can serve in
 ## Example Usage
 
 ```typescript
-import { NetworkListResponse } from "icpmcp";
+import { NetworkListResponse } from "icpmcp-rosetta-api";
 
 let value: NetworkListResponse = {
   networkIdentifiers: [

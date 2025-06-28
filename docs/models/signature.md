@@ -5,7 +5,7 @@ Signature contains the payload that was signed, the public keys of the keypairs 
 ## Example Usage
 
 ```typescript
-import { Signature } from "icpmcp";
+import { Signature } from "icpmcp-rosetta-api";
 
 let value: Signature = {
   signingPayload: {

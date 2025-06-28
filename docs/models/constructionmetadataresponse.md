@@ -5,7 +5,7 @@ The ConstructionMetadataResponse returns network-specific metadata used for tran
 ## Example Usage
 
 ```typescript
-import { ConstructionMetadataResponse } from "icpmcp";
+import { ConstructionMetadataResponse } from "icpmcp-rosetta-api";
 
 let value: ConstructionMetadataResponse = {
   metadata: {},

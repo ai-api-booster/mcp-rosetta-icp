@@ -5,7 +5,7 @@ A BlockTransactionRequest is used to fetch a Transaction included in a block tha
 ## Example Usage
 
 ```typescript
-import { BlockTransactionRequest } from "icpmcp";
+import { BlockTransactionRequest } from "icpmcp-rosetta-api";
 
 let value: BlockTransactionRequest = {
   networkIdentifier: {

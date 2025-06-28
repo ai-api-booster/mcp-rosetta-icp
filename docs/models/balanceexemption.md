@@ -5,7 +5,7 @@ BalanceExemption indicates that the balance for an exempt account could change w
 ## Example Usage
 
 ```typescript
-import { BalanceExemption } from "icpmcp";
+import { BalanceExemption } from "icpmcp-rosetta-api";
 
 let value: BalanceExemption = {
   subAccountAddress: "staking",

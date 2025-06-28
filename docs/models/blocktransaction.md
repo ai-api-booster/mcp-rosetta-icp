@@ -5,7 +5,7 @@ BlockTransaction contains a populated Transaction and the BlockIdentifier that c
 ## Example Usage
 
 ```typescript
-import { BlockTransaction } from "icpmcp";
+import { BlockTransaction } from "icpmcp-rosetta-api";
 
 let value: BlockTransaction = {
   blockIdentifier: {

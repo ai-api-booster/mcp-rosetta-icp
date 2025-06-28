@@ -15,7 +15,7 @@ Get an array of all AccountBalances for an AccountIdentifier and the BlockIdenti
 ### Example Usage
 
 ```typescript
-import { Icpmcp } from "icpmcp";
+import { Icpmcp } from "icpmcp-rosetta-api";
 
 const icpmcp = new Icpmcp({
   serverURL: "https://api.example.com",
@@ -136,7 +136,7 @@ Get an array of all unspent coins for an AccountIdentifier and the BlockIdentifi
 ### Example Usage
 
 ```typescript
-import { Icpmcp } from "icpmcp";
+import { Icpmcp } from "icpmcp-rosetta-api";
 
 const icpmcp = new Icpmcp({
   serverURL: "https://api.example.com",

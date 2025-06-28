@@ -5,7 +5,7 @@ SyncStatus is used to provide additional context about an implementation's sync 
 ## Example Usage
 
 ```typescript
-import { SyncStatus } from "icpmcp";
+import { SyncStatus } from "icpmcp-rosetta-api";
 
 let value: SyncStatus = {
   currentIndex: 100,

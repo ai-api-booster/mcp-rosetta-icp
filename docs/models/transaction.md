@@ -5,7 +5,7 @@ Transactions contain an array of Operations that are attributable to the same Tr
 ## Example Usage
 
 ```typescript
-import { Transaction } from "icpmcp";
+import { Transaction } from "icpmcp-rosetta-api";
 
 let value: Transaction = {
   transactionIdentifier: {

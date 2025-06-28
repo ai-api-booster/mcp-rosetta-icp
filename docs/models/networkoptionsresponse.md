@@ -5,7 +5,7 @@ NetworkOptionsResponse contains information about the versioning of the node and
 ## Example Usage
 
 ```typescript
-import { NetworkOptionsResponse } from "icpmcp";
+import { NetworkOptionsResponse } from "icpmcp-rosetta-api";
 
 let value: NetworkOptionsResponse = {
   version: {

@@ -5,7 +5,7 @@ ExemptionType is used to indicate if the live balance for an account subject to 
 ## Example Usage
 
 ```typescript
-import { ExemptionType } from "icpmcp";
+import { ExemptionType } from "icpmcp-rosetta-api";
 
 let value: ExemptionType = "dynamic";
 ```

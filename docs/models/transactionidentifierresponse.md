@@ -5,7 +5,7 @@ TransactionIdentifierResponse contains the transaction_identifier of a transacti
 ## Example Usage
 
 ```typescript
-import { TransactionIdentifierResponse } from "icpmcp";
+import { TransactionIdentifierResponse } from "icpmcp-rosetta-api";
 
 let value: TransactionIdentifierResponse = {
   transactionIdentifier: {

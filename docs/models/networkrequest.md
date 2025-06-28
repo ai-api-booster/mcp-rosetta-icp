@@ -5,7 +5,7 @@ A NetworkRequest is utilized to retrieve some data specific exclusively to a Net
 ## Example Usage
 
 ```typescript
-import { NetworkRequest } from "icpmcp";
+import { NetworkRequest } from "icpmcp-rosetta-api";
 
 let value: NetworkRequest = {
   networkIdentifier: {

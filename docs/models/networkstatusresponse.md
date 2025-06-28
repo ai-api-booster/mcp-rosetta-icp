@@ -5,7 +5,7 @@ NetworkStatusResponse contains basic information about the node's view of a bloc
 ## Example Usage
 
 ```typescript
-import { NetworkStatusResponse } from "icpmcp";
+import { NetworkStatusResponse } from "icpmcp-rosetta-api";
 
 let value: NetworkStatusResponse = {
   currentBlockIdentifier: {

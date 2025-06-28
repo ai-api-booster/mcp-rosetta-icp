@@ -94,10 +94,10 @@ Add the following server definition to your `claude_desktop_config.json` file:
 ```json
 {
   "mcpServers": {
-    "Icpmcp": {
+    "icpmcp-rosetta-api": {
       "command": "npx",
       "args": [
-        "-y", "--package", "icpmcp",
+        "-y", "--package", "icpmcp-rosetta-api",
         "--",
         "mcp", "start",
         "--server-url", "..."
@@ -117,10 +117,10 @@ Create a `.cursor/mcp.json` file in your project root with the following content
 ```json
 {
   "mcpServers": {
-    "Icpmcp": {
+    "icpmcp-rosetta-api": {
       "command": "npx",
       "args": [
-        "-y", "--package", "icpmcp",
+        "-y", "--package", "icpmcp-rosetta-api",
         "--",
         "mcp", "start",
         "--server-url", "..."
@@ -175,7 +175,7 @@ For supported JavaScript runtimes, please consult [RUNTIMES.md](RUNTIMES.md).
 ### Example
 
 ```typescript
-import { Icpmcp } from "icpmcp";
+import { Icpmcp } from "icpmcp-rosetta-api";
 
 const icpmcp = new Icpmcp({
   serverURL: "https://api.example.com",
@@ -292,7 +292,7 @@ Some of the endpoints in this SDK support retries.  If you use the SDK without a
 
 To change the default retry strategy for a single API call, simply provide a retryConfig object to the call:
 ```typescript
-import { Icpmcp } from "icpmcp";
+import { Icpmcp } from "icpmcp-rosetta-api";
 
 const icpmcp = new Icpmcp({
   serverURL: "https://api.example.com",
@@ -321,7 +321,7 @@ run();
 
 If you'd like to override the default retry strategy for all operations that support retries, you can provide a retryConfig at SDK initialization:
 ```typescript
-import { Icpmcp } from "icpmcp";
+import { Icpmcp } from "icpmcp-rosetta-api";
 
 const icpmcp = new Icpmcp({
   serverURL: "https://api.example.com",
@@ -364,7 +364,7 @@ run();
 
 ### Example
 ```typescript
-import { Icpmcp } from "icpmcp";
+import { Icpmcp } from "icpmcp-rosetta-api";
 import * as errors from "icpmcp/models/errors";
 
 const icpmcp = new Icpmcp({
@@ -441,7 +441,7 @@ custom header and a timeout to requests and how to use the `"requestError"` hook
 to log errors:
 
 ```typescript
-import { Icpmcp } from "icpmcp";
+import { Icpmcp } from "icpmcp-rosetta-api";
 import { HTTPClient } from "icpmcp/lib/http";
 
 const httpClient = new HTTPClient({
@@ -483,7 +483,7 @@ You can pass a logger that matches `console`'s interface as an SDK option.
 > Beware that debug logging will reveal secrets, like API tokens in headers, in log messages printed to a console or files. It's recommended to use this feature only during local development and not in production.
 
 ```typescript
-import { Icpmcp } from "icpmcp";
+import { Icpmcp } from "icpmcp-rosetta-api";
 
 const sdk = new Icpmcp({ debugLogger: console });
 ```

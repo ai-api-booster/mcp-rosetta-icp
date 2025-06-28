@@ -5,7 +5,7 @@ A BlockResponse includes a fully-populated block or a partially-populated block 
 ## Example Usage
 
 ```typescript
-import { BlockResponse } from "icpmcp";
+import { BlockResponse } from "icpmcp-rosetta-api";
 
 let value: BlockResponse = {
   block: {

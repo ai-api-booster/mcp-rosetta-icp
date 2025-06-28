@@ -5,7 +5,7 @@ The Version object is utilized to inform the client of the versions of different
 ## Example Usage
 
 ```typescript
-import { Version } from "icpmcp";
+import { Version } from "icpmcp-rosetta-api";
 
 let value: Version = {
   rosettaVersion: "1.2.5",

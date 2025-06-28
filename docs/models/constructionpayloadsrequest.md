@@ -5,7 +5,7 @@ ConstructionPayloadsRequest is the request to `/construction/payloads`. It conta
 ## Example Usage
 
 ```typescript
-import { ConstructionPayloadsRequest } from "icpmcp";
+import { ConstructionPayloadsRequest } from "icpmcp-rosetta-api";
 
 let value: ConstructionPayloadsRequest = {
   networkIdentifier: {

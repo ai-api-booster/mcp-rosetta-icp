@@ -5,7 +5,7 @@ PublicKey contains a public key byte array for a particular CurveType encoded in
 ## Example Usage
 
 ```typescript
-import { PublicKey } from "icpmcp";
+import { PublicKey } from "icpmcp-rosetta-api";
 
 let value: PublicKey = {
   hexBytes: "<value>",

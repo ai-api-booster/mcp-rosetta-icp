@@ -5,7 +5,7 @@ CoinIdentifier uniquely identifies a Coin.
 ## Example Usage
 
 ```typescript
-import { CoinIdentifier } from "icpmcp";
+import { CoinIdentifier } from "icpmcp-rosetta-api";
 
 let value: CoinIdentifier = {
   identifier:

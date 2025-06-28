@@ -5,7 +5,7 @@ Operator is used by query-related endpoints to determine how to apply conditions
 ## Example Usage
 
 ```typescript
-import { Operator } from "icpmcp";
+import { Operator } from "icpmcp-rosetta-api";
 
 let value: Operator = "and";
 ```

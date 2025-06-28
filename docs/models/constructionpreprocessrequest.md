@@ -5,7 +5,7 @@ ConstructionPreprocessRequest is passed to the `/construction/preprocess` endpoi
 ## Example Usage
 
 ```typescript
-import { ConstructionPreprocessRequest } from "icpmcp";
+import { ConstructionPreprocessRequest } from "icpmcp-rosetta-api";
 
 let value: ConstructionPreprocessRequest = {
   networkIdentifier: {

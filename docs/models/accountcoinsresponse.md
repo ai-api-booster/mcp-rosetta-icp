@@ -5,7 +5,7 @@ AccountCoinsResponse is returned on the /account/coins endpoint and includes all
 ## Example Usage
 
 ```typescript
-import { AccountCoinsResponse } from "icpmcp";
+import { AccountCoinsResponse } from "icpmcp-rosetta-api";
 
 let value: AccountCoinsResponse = {
   blockIdentifier: {

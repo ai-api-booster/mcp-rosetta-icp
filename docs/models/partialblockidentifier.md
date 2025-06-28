@@ -5,7 +5,7 @@ When fetching data by BlockIdentifier, it may be possible to only specify the in
 ## Example Usage
 
 ```typescript
-import { PartialBlockIdentifier } from "icpmcp";
+import { PartialBlockIdentifier } from "icpmcp-rosetta-api";
 
 let value: PartialBlockIdentifier = {
   index: 1123941,

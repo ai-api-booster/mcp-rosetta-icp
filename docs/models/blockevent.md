@@ -5,7 +5,7 @@ BlockEvent represents the addition or removal of a BlockIdentifier from storage.
 ## Example Usage
 
 ```typescript
-import { BlockEvent } from "icpmcp";
+import { BlockEvent } from "icpmcp-rosetta-api";
 
 let value: BlockEvent = {
   sequence: 5,

@@ -5,7 +5,7 @@ A MempoolResponse contains all transaction identifiers in the mempool for a part
 ## Example Usage
 
 ```typescript
-import { MempoolResponse } from "icpmcp";
+import { MempoolResponse } from "icpmcp-rosetta-api";
 
 let value: MempoolResponse = {
   transactionIdentifiers: [

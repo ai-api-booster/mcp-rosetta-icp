@@ -5,7 +5,7 @@ The block_identifier uniquely identifies a block in a particular network.
 ## Example Usage
 
 ```typescript
-import { BlockIdentifier } from "icpmcp";
+import { BlockIdentifier } from "icpmcp-rosetta-api";
 
 let value: BlockIdentifier = {
   index: 1123941,

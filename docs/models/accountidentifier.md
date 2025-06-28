@@ -5,7 +5,7 @@ The account_identifier uniquely identifies an account within a network. All fiel
 ## Example Usage
 
 ```typescript
-import { AccountIdentifier } from "icpmcp";
+import { AccountIdentifier } from "icpmcp-rosetta-api";
 
 let value: AccountIdentifier = {
   address: "0x3a065000ab4183c6bf581dc1e55a605455fc6d61",

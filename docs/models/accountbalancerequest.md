@@ -5,7 +5,7 @@ An AccountBalanceRequest is utilized to make a balance request on the /account/b
 ## Example Usage
 
 ```typescript
-import { AccountBalanceRequest } from "icpmcp";
+import { AccountBalanceRequest } from "icpmcp-rosetta-api";
 
 let value: AccountBalanceRequest = {
   networkIdentifier: {

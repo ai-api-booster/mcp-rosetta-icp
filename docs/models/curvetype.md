@@ -5,7 +5,7 @@ CurveType is the type of cryptographic curve associated with a PublicKey. * secp
 ## Example Usage
 
 ```typescript
-import { CurveType } from "icpmcp";
+import { CurveType } from "icpmcp-rosetta-api";
 
 let value: CurveType = "secp256r1";
 ```

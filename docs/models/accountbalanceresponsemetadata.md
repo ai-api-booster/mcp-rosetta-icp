@@ -5,7 +5,7 @@ Account-based blockchains that utilize a nonce or sequence number should include
 ## Example Usage
 
 ```typescript
-import { AccountBalanceResponseMetadata } from "icpmcp";
+import { AccountBalanceResponseMetadata } from "icpmcp-rosetta-api";
 
 let value: AccountBalanceResponseMetadata = {};
 ```

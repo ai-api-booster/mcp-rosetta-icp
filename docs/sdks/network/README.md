@@ -16,7 +16,7 @@ This endpoint returns a list of NetworkIdentifiers that the Rosetta server suppo
 ### Example Usage
 
 ```typescript
-import { Icpmcp } from "icpmcp";
+import { Icpmcp } from "icpmcp-rosetta-api";
 
 const icpmcp = new Icpmcp({
   serverURL: "https://api.example.com",
@@ -85,7 +85,7 @@ This endpoint returns the current status of the network requested. Any NetworkId
 ### Example Usage
 
 ```typescript
-import { Icpmcp } from "icpmcp";
+import { Icpmcp } from "icpmcp-rosetta-api";
 
 const icpmcp = new Icpmcp({
   serverURL: "https://api.example.com",
@@ -172,7 +172,7 @@ This endpoint returns the version information and allowed network-specific types
 ### Example Usage
 
 ```typescript
-import { Icpmcp } from "icpmcp";
+import { Icpmcp } from "icpmcp-rosetta-api";
 
 const icpmcp = new Icpmcp({
   serverURL: "https://api.example.com",

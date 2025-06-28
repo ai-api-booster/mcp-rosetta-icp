@@ -5,7 +5,7 @@ ConstructionDeriveRequest is passed to the `/construction/derive` endpoint. Netw
 ## Example Usage
 
 ```typescript
-import { ConstructionDeriveRequest } from "icpmcp";
+import { ConstructionDeriveRequest } from "icpmcp-rosetta-api";
 
 let value: ConstructionDeriveRequest = {
   networkIdentifier: {

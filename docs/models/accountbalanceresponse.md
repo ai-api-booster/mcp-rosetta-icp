@@ -5,7 +5,7 @@ An AccountBalanceResponse is returned on the /account/balance endpoint. If an ac
 ## Example Usage
 
 ```typescript
-import { AccountBalanceResponse } from "icpmcp";
+import { AccountBalanceResponse } from "icpmcp-rosetta-api";
 
 let value: AccountBalanceResponse = {
   blockIdentifier: {

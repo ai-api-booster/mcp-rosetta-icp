@@ -5,7 +5,7 @@ Parameters is some network-specific argument for a method. It is up to the calle
 ## Example Usage
 
 ```typescript
-import { ParametersT } from "icpmcp";
+import { ParametersT } from "icpmcp-rosetta-api";
 
 let value: ParametersT = {};
 ```

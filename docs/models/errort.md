@@ -5,7 +5,7 @@ Instead of utilizing HTTP status codes to describe node errors (which often do n
 ## Example Usage
 
 ```typescript
-import { ErrorT } from "icpmcp";
+import { ErrorT } from "icpmcp-rosetta-api";
 
 let value: ErrorT = {
   code: 12,

@@ -5,7 +5,7 @@ If the SubAccount address is not sufficient to uniquely specify a SubAccount, an
 ## Example Usage
 
 ```typescript
-import { SubAccountIdentifierMetadata } from "icpmcp";
+import { SubAccountIdentifierMetadata } from "icpmcp-rosetta-api";
 
 let value: SubAccountIdentifierMetadata = {};
 ```

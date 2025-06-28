@@ -5,7 +5,7 @@ Amount is some Value of a Currency. It is considered invalid to specify a Value 
 ## Example Usage
 
 ```typescript
-import { Amount } from "icpmcp";
+import { Amount } from "icpmcp-rosetta-api";
 
 let value: Amount = {
   value: "1238089899992",

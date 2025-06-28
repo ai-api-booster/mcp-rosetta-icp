@@ -5,7 +5,7 @@ Allow specifies supported Operation status, Operation types, and all possible er
 ## Example Usage
 
 ```typescript
-import { Allow } from "icpmcp";
+import { Allow } from "icpmcp-rosetta-api";
 
 let value: Allow = {
   operationStatuses: [

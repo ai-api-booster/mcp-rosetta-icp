@@ -5,7 +5,7 @@ Blockchains that utilize a username model (where the address is not a derivative
 ## Example Usage
 
 ```typescript
-import { AccountIdentifierMetadata } from "icpmcp";
+import { AccountIdentifierMetadata } from "icpmcp-rosetta-api";
 
 let value: AccountIdentifierMetadata = {};
 ```

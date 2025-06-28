@@ -5,7 +5,7 @@ A ConstructionMetadataRequest is utilized to get information required to constru
 ## Example Usage
 
 ```typescript
-import { ConstructionMetadataRequest } from "icpmcp";
+import { ConstructionMetadataRequest } from "icpmcp-rosetta-api";
 
 let value: ConstructionMetadataRequest = {
   networkIdentifier: {

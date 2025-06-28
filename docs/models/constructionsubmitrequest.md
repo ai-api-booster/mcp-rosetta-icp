@@ -5,7 +5,7 @@ The transaction submission request includes a signed transaction.
 ## Example Usage
 
 ```typescript
-import { ConstructionSubmitRequest } from "icpmcp";
+import { ConstructionSubmitRequest } from "icpmcp-rosetta-api";
 
 let value: ConstructionSubmitRequest = {
   networkIdentifier: {

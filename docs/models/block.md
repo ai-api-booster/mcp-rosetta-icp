@@ -5,7 +5,7 @@ Blocks contain an array of Transactions that occurred at a particular BlockIdent
 ## Example Usage
 
 ```typescript
-import { Block } from "icpmcp";
+import { Block } from "icpmcp-rosetta-api";
 
 let value: Block = {
   blockIdentifier: {

@@ -5,7 +5,7 @@ Currency is composed of a canonical Symbol and Decimals. This Decimals value is 
 ## Example Usage
 
 ```typescript
-import { Currency } from "icpmcp";
+import { Currency } from "icpmcp-rosetta-api";
 
 let value: Currency = {
   symbol: "BTC",

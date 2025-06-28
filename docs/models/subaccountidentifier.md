@@ -5,7 +5,7 @@ An account may have state specific to a contract address (ERC-20 token) and/or a
 ## Example Usage
 
 ```typescript
-import { SubAccountIdentifier } from "icpmcp";
+import { SubAccountIdentifier } from "icpmcp-rosetta-api";
 
 let value: SubAccountIdentifier = {
   address: "0x6b175474e89094c44da98b954eedeac495271d0f",

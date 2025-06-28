@@ -5,7 +5,7 @@ CoinChange is used to represent a change in state of a some coin identified by a
 ## Example Usage
 
 ```typescript
-import { CoinChange } from "icpmcp";
+import { CoinChange } from "icpmcp-rosetta-api";
 
 let value: CoinChange = {
   coinIdentifier: {

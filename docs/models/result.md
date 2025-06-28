@@ -5,7 +5,7 @@ Result contains the result of the `/call` invocation. This result will not be in
 ## Example Usage
 
 ```typescript
-import { Result } from "icpmcp";
+import { Result } from "icpmcp-rosetta-api";
 
 let value: Result = {};
 ```

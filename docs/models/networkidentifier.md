@@ -5,7 +5,7 @@ The network_identifier specifies which network a particular object is associated
 ## Example Usage
 
 ```typescript
-import { NetworkIdentifier } from "icpmcp";
+import { NetworkIdentifier } from "icpmcp-rosetta-api";
 
 let value: NetworkIdentifier = {
   blockchain: "bitcoin",

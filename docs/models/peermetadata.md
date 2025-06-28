@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { PeerMetadata } from "icpmcp";
+import { PeerMetadata } from "icpmcp-rosetta-api";
 
 let value: PeerMetadata = {};
 ```

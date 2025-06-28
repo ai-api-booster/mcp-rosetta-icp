@@ -5,7 +5,7 @@ Any additional information related to the currency itself. For example, it would
 ## Example Usage
 
 ```typescript
-import { CurrencyMetadata } from "icpmcp";
+import { CurrencyMetadata } from "icpmcp-rosetta-api";
 
 let value: CurrencyMetadata = {};
 ```

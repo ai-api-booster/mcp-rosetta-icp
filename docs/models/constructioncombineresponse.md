@@ -5,7 +5,7 @@ ConstructionCombineResponse is returned by `/construction/combine`. The network 
 ## Example Usage
 
 ```typescript
-import { ConstructionCombineResponse } from "icpmcp";
+import { ConstructionCombineResponse } from "icpmcp-rosetta-api";
 
 let value: ConstructionCombineResponse = {
   signedTransaction: "<value>",

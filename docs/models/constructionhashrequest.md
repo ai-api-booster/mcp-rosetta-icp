@@ -5,7 +5,7 @@ ConstructionHashRequest is the input to the `/construction/hash` endpoint.
 ## Example Usage
 
 ```typescript
-import { ConstructionHashRequest } from "icpmcp";
+import { ConstructionHashRequest } from "icpmcp-rosetta-api";
 
 let value: ConstructionHashRequest = {
   networkIdentifier: {

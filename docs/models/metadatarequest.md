@@ -5,7 +5,7 @@ A MetadataRequest is utilized in any request where the only argument is optional
 ## Example Usage
 
 ```typescript
-import { MetadataRequest } from "icpmcp";
+import { MetadataRequest } from "icpmcp-rosetta-api";
 
 let value: MetadataRequest = {};
 ```

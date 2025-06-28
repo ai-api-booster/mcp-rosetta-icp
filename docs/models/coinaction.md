@@ -5,7 +5,7 @@ CoinActions are different state changes that a Coin can undergo. When a Coin is 
 ## Example Usage
 
 ```typescript
-import { CoinAction } from "icpmcp";
+import { CoinAction } from "icpmcp-rosetta-api";
 
 let value: CoinAction = "coin_spent";
 ```

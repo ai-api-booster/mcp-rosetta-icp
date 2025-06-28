@@ -5,7 +5,7 @@ OperationStatus is utilized to indicate which Operation status are considered su
 ## Example Usage
 
 ```typescript
-import { OperationStatus } from "icpmcp";
+import { OperationStatus } from "icpmcp-rosetta-api";
 
 let value: OperationStatus = {
   status: "SUCCESS",

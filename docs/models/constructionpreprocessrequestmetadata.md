@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { ConstructionPreprocessRequestMetadata } from "icpmcp";
+import { ConstructionPreprocessRequestMetadata } from "icpmcp-rosetta-api";
 
 let value: ConstructionPreprocessRequestMetadata = {};
 ```

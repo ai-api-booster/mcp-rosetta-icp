@@ -5,7 +5,7 @@ Transactions that are related to other transactions (like a cross-shard transact
 ## Example Usage
 
 ```typescript
-import { TransactionMetadata } from "icpmcp";
+import { TransactionMetadata } from "icpmcp-rosetta-api";
 
 let value: TransactionMetadata = {};
 ```

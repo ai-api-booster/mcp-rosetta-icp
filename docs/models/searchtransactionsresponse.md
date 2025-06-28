@@ -5,7 +5,7 @@ SearchTransactionsResponse contains an ordered collection of BlockTransactions t
 ## Example Usage
 
 ```typescript
-import { SearchTransactionsResponse } from "icpmcp";
+import { SearchTransactionsResponse } from "icpmcp-rosetta-api";
 
 let value: SearchTransactionsResponse = {
   transactions: [

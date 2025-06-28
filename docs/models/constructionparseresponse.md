@@ -5,7 +5,7 @@ ConstructionParseResponse contains an array of operations that occur in a transa
 ## Example Usage
 
 ```typescript
-import { ConstructionParseResponse } from "icpmcp";
+import { ConstructionParseResponse } from "icpmcp-rosetta-api";
 
 let value: ConstructionParseResponse = {
   operations: [

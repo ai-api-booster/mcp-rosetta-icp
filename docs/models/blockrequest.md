@@ -5,7 +5,7 @@ A BlockRequest is utilized to make a block request on the /block endpoint.
 ## Example Usage
 
 ```typescript
-import { BlockRequest } from "icpmcp";
+import { BlockRequest } from "icpmcp-rosetta-api";
 
 let value: BlockRequest = {
   networkIdentifier: {

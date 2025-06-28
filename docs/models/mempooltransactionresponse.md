@@ -5,7 +5,7 @@ A MempoolTransactionResponse contains an estimate of a mempool transaction. It m
 ## Example Usage
 
 ```typescript
-import { MempoolTransactionResponse } from "icpmcp";
+import { MempoolTransactionResponse } from "icpmcp-rosetta-api";
 
 let value: MempoolTransactionResponse = {
   transaction: {
